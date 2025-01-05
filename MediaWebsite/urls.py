@@ -32,7 +32,7 @@ urlpatterns = [
     #path('', TemplateView.as_view(template_name='home.html'), name='home'),
     path('', include("homepage.urls"), name='home'),
 
-    path('router/', include('quickstart.urls')),
+    #path('router/', include('quickstart.urls')),
 
     
 

@@ -11,10 +11,13 @@ import os
 import sys
 from django.core.wsgi import get_wsgi_application
 
+
+
+
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'MediaWebsite.settings')
 
 application = get_wsgi_application()
 
-sys.path.append('/var/www/MediaWebsite/')
-sys.path.append('/var/www/MediaWebsite/MediaWebsite')
-sys.path.append('/var/www/MediaWebsite/mediasite_env/lib/python3.8/site-packages')
+sys.path.append('/var/www/media_website/')
+sys.path.append('/var/www/media_website/MediaWebsite')
+sys.path.append('/var/www/media_website/mediasite_env/lib/python3.8/site-packages')
